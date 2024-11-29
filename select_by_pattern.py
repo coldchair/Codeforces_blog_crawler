@@ -12,6 +12,8 @@ for file in os.listdir(jsons_dir):
     if file.endswith('.json'):
         files.append(file)
 
+files = sorted(files, key = lambda x: int(x.split('.')[0]))
+
 for file in tqdm(files):
     d = json.load(open(os.path.join(jsons_dir, file)))
     s1 = matchesPatterns(d['title'])
