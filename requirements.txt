@@ -2,3 +2,5 @@ crawl4ai
 nltk
 pandas
 tqdm
+transformers
+openai
