@@ -12,13 +12,22 @@ from utils.logger import logger
 warnings.filterwarnings("ignore", message="Setting `pad_token_id` to `eos_token_id`")
 
 jsons_dir = './jsons'
+
 ids_all = []
-for file in os.listdir(jsons_dir):
-    ids_all.append(file.split('.')[0])
+
+
+# TODO: modify the following path
+log_file_path = './tasks/tasks_dh.txt'
+with open(log_file_path, 'r') as f:
+    for line in f.readlines():
+        id = line.strip()
+        ids_all.append(id)
 
 ids = ids_all
 ids = sorted(ids, key=lambda x: -int(x))
-# ids = ids_all[:20]
+
+# TODO: modify the range of ids
+ids = ids_all[:10]
 # ids = ['118883', '105221', '126513', '131958'] 
 
 from LLM.qwen_turbo_aliyun import get_output # applying API from aliyun
@@ -68,6 +77,16 @@ for id in tqdm(ids):
         注意不是同一道题目的两份代码出现了雷同，而是两道题目是本质相同的或者相似的。 \n
         （可能有用的关键词：coincidence, conflict, similar problem, same problem）。\n
         如果出现了这样的信息，请只回答 '0'，否则，请只回答 '1'。请注意，不需要解释原因，只回答 '0' 或 '1'。\n
+        Blog: \n
+        {chunk}
+        '''
+
+        # TODO: 可以更改下面的 prompt
+        content = f'''
+        请判断下面这篇博客或者博客的评论区是否包含了两道不同的编程题目出现了雷同或冲突或撞题的信息 \n
+        注意不是同一道题目的两份代码出现了雷同，而是两道题目是本质相同的或者相似的。 \n
+        （可能有用的关键词：coincidence, conflict, similar problem, same problem）。\n
+        如果出现了这样的信息，请指出在博客的什么地方，并指出两个题目（来源，链接）。
         Blog: \n
         {chunk}
         '''

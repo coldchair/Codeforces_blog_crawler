@@ -21,7 +21,7 @@ for file_path in log_file_paths:
             if (row[1] != 'fail'):
                 d[x] = list(row)
 
-from logger import logger
+from utils.logger import logger
 keys = list(d.keys())
 keys = sorted(keys, key = lambda x: -int(x))
 for k in tqdm(keys, desc = 'logging...'):

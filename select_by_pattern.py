@@ -1,8 +1,8 @@
 import os
 import json
 from tqdm import tqdm
-from logger import logger
-from patterns import matchesPatterns
+from utils.logger import logger
+from patterns.patterns import matchesPatterns
 
 jsons_dir = './jsons'
 

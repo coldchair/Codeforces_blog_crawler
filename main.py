@@ -53,7 +53,7 @@ async def extract_news_teasers(blog_id = 136396, verbose = False):
             return None
         return news_teasers[0]
 
-from patterns import count_words
+from patterns.patterns import count_words
 def count_blog_words(d):
     s1 = count_words(d['title'])
     s2 = count_words(d['content'])
@@ -90,7 +90,7 @@ def get_fail_id_from_log(log_file):
 MAX_TASKS = 4
 MAX_FAIL_RETRY = 3
 
-from logger import logger
+from utils.logger import logger
 
 # retry the previously failed task.
 async def retry_fail_task(fail_task_id_list, fail_task_retry_count):

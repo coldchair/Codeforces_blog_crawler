@@ -1,0 +1,62 @@
+118883,在这篇博客及其评论中，确实提到了两道题目存在雷同的情况。具体来说，这两道题目分别是：
+
+1. **Codeforces Round 889 (Div. 1) 的 Div1E 题目**：
+   - 这道题要求输出一个长度最多为60的正整数序列，使得其中恰好有K个子序列的和为60。
+   - 来源：[Codeforces Round 889 (Div. 1)](https://codeforces.com/contest/1854/problem/E)
+
+2. **OpenCup 中的一个题目（K 题）**：
+   - 这道题要求输出一个长度最多为30的整数序列，使得其中恰好有K个子序列的和为0。
+   - 来源：[OpenCup Gym](https://codeforces.com/gym/103374/problem/K)
+
+博客作者提到，在比赛过程中他回忆起之前解决过一个类似的题目，并且尝试用相同的方法解决了当前的题目。进一步的分析表明，这两道题目在本质上是非常相似的，尽管有一些细节上的差异。
+
+博客中详细描述了这两道题目的相似之处，并且作者还展示了如何将第一个问题转化为第二个问题。因此，可以认为这两道题目在本质上是相似的，甚至可以说是“重复”的问题。
+
+总结：博客中确实提到了两道题目存在雷同的情况，这些题目分别来自Codeforces和OpenCup。
+105221,在这篇博客及其评论区中，确实存在两道题目出现雷同或冲突的情况，主要涉及Div1C和Div2E这两个题目。
+
+根据评论内容，这两道题被指认与之前的问题有高度相似性。以下是相关评论的摘录：
+
+- **评论#17** (由用户BaluconisTima发布): 
+  > Pay attention! Task (Div.2 E / Div.1 C) It is also copied! Comment with confirmation: https://codeforces.com/blog/entry/105216?#comment-935731
+
+- **评论#31** (由用户abhi_kant发布):
+  > plz also unrate div2.
+
+- **评论#41** (由用户Iztrx发布):
+  > However, not only div1E is copied.
+
+- **评论#46** (由用户dream7发布):
+  > Including me. (˘_˘٥)
+
+这些评论表明，不仅Div1E被指认是抄袭的，而且Div1C和Div2E也被认为是雷同或相似的。评论者们认为，由于这些问题的相似性，整个比赛应该被取消评分（unrated），尽管官方决定仅取消了Div1部分的评分。
+
+具体来说：
+- **来源**: Codeforces Blog
+- **链接**: https://codeforces.com/blog/entry/105216
+
+因此，从上述评论可以看出，两道题目Div1C和Div2E被认为是雷同或相似的，且这些相似性对比赛的公平性产生了影响。
+126513,经过仔细检查，这篇博客及其评论区并没有出现两道不同的编程题目雷同、冲突或撞题的情况。每篇题目的描述和解决方案都是独立且具体的，没有发现有重复或实质上相同的问题。
+
+如果需要进一步确认特定部分是否存在雷同或冲突，可以提供更具体的内容或关键字进行针对性的分析。目前看来，这些题目和解释都保持了各自独立性，没有相互重叠或冲突的情况。
+131958,在这篇博客及其评论区中，确实提到了一些编程题目之间的雷同或冲突的情况。具体来说：
+
+1. **CodeChef的问题与FARMLEGS的雷同**：
+   - 博客作者提到他们无意中复制了一个CodeChef的问题，这个问题（1996A - Legs）与另一个名为FARMLEGS的问题几乎完全相同。这表明两个题目是本质相同的。
+   - 这个雷同出现在博客的第一段，提到的是CodeChef上的问题和一个未指明名称但被称作FARMLEGS的问题。
+
+2. **TopCoder与CodeChef的问题雷同**：
+   - 评论区中的Misuki提到，G问题也曾在过去的TopCoder比赛中出现过。虽然没有给出具体的TopCoder题目名称，但是明确指出存在雷同。
+   - 这个雷同出现在评论区的comment#3，提到的是TopCoder上的题目和CodeChef上的题目。
+
+3. **Codeforces上的问题与CodeChef上的问题相似**：
+   - 另一条评论提到，在Codeforces的健身房（gym）里有一个相似的问题（H题），只是有一些小改动。
+   - 这个相似性出现在评论区的comment#4，提到的是Codeforces上的问题和CodeChef上的问题。
+
+总结起来，博客及评论区中提到的雷同或相似题目包括：
+
+- CodeChef的1996A - Legs与FARMLEGS（博客第一段）
+- CodeChef上的G问题与过去TopCoder的比赛中的某个问题（评论区comment#3）
+- Codeforces健身房中的问题与CodeChef上的问题（评论区comment#4）
+
+这些雷同或相似情况都是在同一博客和其评论区中提及的。

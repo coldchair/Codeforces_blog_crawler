@@ -15,3 +15,15 @@ https://cloud.tsinghua.edu.cn/f/5798f243ff9e4c7298cf/
 然后运行 main.py 
 
 ## LLM 模型筛选：
+
+select_by_LLM.py
+
+可以自己更改其中的 prompt
+
+采用 CoT 的 prompt 会增加运行时间
+
+## LLM 辅助标注：
+
+mark_by_LLM.py
+
+请阅读 TODO，并修改部分代码
