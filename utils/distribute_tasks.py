@@ -24,6 +24,7 @@ for name, radio in zip(names, radios):
     length = int(ids_all_length * radio)
     ids = ids_all[:length]
     ids_all = ids_all[length:]
+    ids = sorted(ids, key = lambda x: -int(x))
 
     output_file_path = f'tasks/tasks_{name}.txt'
     with open(output_file_path, 'w') as f:
