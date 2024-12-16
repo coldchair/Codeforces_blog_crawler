@@ -27,3 +27,15 @@ select_by_LLM.py
 mark_by_LLM.py
 
 请阅读 TODO，并修改部分代码
+
+## LLM 爬题目：
+
+process_excel.py
+
+process_excel_re.py 重跑某个 id
+
+prob/check_error.py 检查错误
+
+prob/manual_get.py 手动添加
+
+文件见 https://cloud.tsinghua.edu.cn/f/1eaaa7faddac49b0aaac/

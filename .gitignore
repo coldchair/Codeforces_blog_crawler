@@ -1,5 +1,10 @@
 jsons/
 jsons.zip
+prob_desc/
+prob_desc_cf/
+excel/
+prompt_F_jsons
+prompt_T_jsons
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

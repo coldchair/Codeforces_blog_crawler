@@ -17,7 +17,7 @@ ids_all = []
 
 
 # TODO: modify the following path （改成你自己的名字的 tasks）
-log_file_path = './tasks/tasks_dh.txt'
+log_file_path = './tasks/tasks_zhx.txt'
 with open(log_file_path, 'r') as f:
     for line in f.readlines():
         id = line.strip()
@@ -27,7 +27,7 @@ ids = ids_all
 ids = sorted(ids, key=lambda x: -int(x))
 
 # TODO: modify the range of ids（更改范围来帮助标注，你也可以设为全部一次跑完）
-ids = ids_all[:10]
+
 # ids = ids_all
 # ids = ['118883', '105221', '126513', '131958'] 
 
@@ -100,4 +100,4 @@ for id in tqdm(ids):
             result = '2' # error
 
         # logging
-        logger.info(f'{id},{result}')
+        logger.info(f'{id},{result}\n\n\n\n')

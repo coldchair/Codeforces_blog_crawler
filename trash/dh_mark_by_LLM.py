@@ -27,7 +27,9 @@ ids = ids_all
 ids = sorted(ids, key=lambda x: -int(x))
 
 # TODO: modify the range of ids（更改范围来帮助标注，你也可以设为全部一次跑完）
-ids = ids_all[:10]
+st = 900
+en = st + 100
+ids = ids_all[st:en]
 # ids = ids_all
 # ids = ['118883', '105221', '126513', '131958'] 
 
